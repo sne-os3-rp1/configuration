@@ -1,0 +1,32 @@
+<configuration>
+    <property>
+            <name>yarn.acl.enable</name>
+            <value>0</value>
+    </property>
+
+    <property>
+            <name>yarn.resourcemanager.hostname</name>
+            <value>145.100.104.37</value>
+    </property>
+
+    <property>
+            <name>yarn.nodemanager.aux-services</name>
+            <value>mapreduce_shuffle</value>
+    </property>
+    <property>
+            <name>yarn.nodemanager.resource.memory-mb</name>
+	    <value>8192</value>
+    </property>
+    <property>
+	    <name>yarn.nodemanager.pmem-check-enabled</name>
+	    <value>false</value>
+    </property>	    
+    <property>
+	    <name>yarn.nodemanager.vmem-check-enabled</name>
+	    <value>false</value>
+    </property>
+    <property>
+            <name>yarn.nodemanager.local-dirs</name>
+            <value>/tmp/yarn-tmp/</value>
+    </property>
+</configuration>
